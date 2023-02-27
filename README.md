@@ -1,18 +1,7 @@
 
 > Open this page at [https://jumpsushi.github.io/reaction-game/](https://jumpsushi.github.io/reaction-game/)
 
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/jumpsushi/reaction-game** and import
-
-## Edit this project ![Build status badge](https://github.com/jumpsushi/reaction-game/workflows/MakeCode/badge.svg)
-
-To edit this repository in MakeCode.
+To make a copy of this repository in MakeCode.
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**

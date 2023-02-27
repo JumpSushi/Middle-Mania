@@ -25,8 +25,7 @@ let moveSpeed = MOVE_SPEED_DEFAULT
 let level = 1
 let depend = randint(1, 3)
 game.setScore(0)
-// Display instructions on LED screen
-basic.showString("Press A when in the middle")
+basic.showString("Press A when in the middle",125)
 // Create the initial sprite
 position = game.createSprite(2, 2)
 // Move the sprite in the background
@@ -37,8 +36,5 @@ control.inBackground(function () {
         position.change(LedSpriteProperty.Y, randint(Y_MOVE_MIN, Y_MOVE_MAX))
         position.ifOnEdgeBounce()
         basic.pause(interval)
-        if (game.score() % 5 == 0 && interval > INTERVAL_MIN) {
-            interval = Math.max(interval - 50, INTERVAL_MIN)
-        }
     }
 })
