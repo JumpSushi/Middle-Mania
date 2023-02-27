@@ -1,38 +1,27 @@
-def Set_level():
-    global Level, Position
-    while True:
-        if input.button_is_pressed(Button.A):
-            pass
-        elif input.button_is_pressed(Button.B):
-            Level += 1
-            basic.show_string("" + str(Level))
-        elif Level <= 0:
-            Level = 0
-        elif input.button_is_pressed(Button.AB):
-            Position = game.create_sprite(2, 2)
-            break
-
-def on_button_pressed_a():
-    global Intervine
-    if Position.get(LedSpriteProperty.X) == 2:
-        game.add_score(1)
+input.onButtonPressed(Button.A, function () {
+    if (Position.get(LedSpriteProperty.X) == 2) {
+        game.addScore(1)
         Intervine = Intervine - 50
-    else:
-        game.game_over()
-input.on_button_pressed(Button.A, on_button_pressed_a)
-
-Intervine = 0
-Level = 0
-Position: game.LedSprite = None
-Position = game.create_sprite(2, 2)
-Level = 1
-Intervine = 500
-game.set_score(0)
-Position.delete()
-Set_level()
-
-def on_forever():
-    Position.move(1)
-    Position.if_on_edge_bounce()
-    basic.pause(Intervine)
-basic.forever(on_forever)
+    } else {
+        game.gameOver()
+    }
+})
+let Intervine = 0
+let Position: game.LedSprite = null
+Position = game.createSprite(2, 2)
+let Level: string = 1
+Intervine = randint(400, 500)
+game.setScore(0)
+basic.forever(function () {
+    if (Level == "") {
+        Position.move(randint(-2, 2))
+        Position.change(LedSpriteProperty.Y, randint(-2, 2))
+        Position.ifOnEdgeBounce()
+        basic.pause(Intervine)
+    } else {
+        Position.move(1)
+        Position.change(LedSpriteProperty.Y, 1)
+        Position.ifOnEdgeBounce()
+        basic.pause(Intervine)
+    }
+})
