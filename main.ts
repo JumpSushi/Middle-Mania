@@ -2,7 +2,7 @@ input.onButtonPressed(Button.A, function () {
     if (position.get(LedSpriteProperty.X) == 2) {
         game.addScore(1)
         interval = Math.max(interval - 50, INTERVAL_MIN)
-        music.playMelody("C D E F G A B C5 ", 500)
+        music.playMelody("C D E F G A B C5 ", 700)
     } else {
         game.gameOver()
         music.playMelody("C D E F G A B C5 ", 500)
@@ -25,7 +25,12 @@ let moveSpeed = MOVE_SPEED_DEFAULT
 let level = 1
 let depend = randint(1, 3)
 game.setScore(0)
-basic.showString("Press A when in the middle",125)
+basic.showString(" Press ", 100)
+basic.showString(" A ", 100)
+basic.showString(" when ", 100)
+basic.showString(" in ", 100)
+basic.showString(" the ", 100)
+basic.showString(" middle ", 100)
 // Create the initial sprite
 position = game.createSprite(2, 2)
 // Move the sprite in the background
