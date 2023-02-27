@@ -45,6 +45,11 @@ no
 
 Yes, I have used the “game” function, “Run in background” and increasing the text scrolling speed.
 
+### Annotations
+![Annotations](https://raw.githubusercontent.com/JumpSushi/Middle-Mania/master/New%20Note.png)
+![Annotations](https://raw.githubusercontent.com/JumpSushi/Middle-Mania/master/run%20in%20background.png)
+![Annotations](https://raw.githubusercontent.com/JumpSushi/Middle-Mania/master/new_under.png)
+
 ## Blocks preview
 
 This image shows the blocks code from the last commit in master.
