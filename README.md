@@ -1,7 +1,7 @@
 
 > Open this page at [https://jumpsushi.github.io/reaction-game/](https://jumpsushi.github.io/reaction-game/)
 
-To make a copy of this repository in MakeCode.
+### To make a copy of this repository in MakeCode!!!!! (FOR MS. E)
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
