@@ -7,7 +7,7 @@ To make a copy of this repository in MakeCode.
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/jumpsushi/reaction-game** and click import
 
-##Game Brief
+## Game Brief
 
 To score points in the game, you must hit the target when it is in the center of the screen. To earn points, the player must time their button presses so that the dot is in the middle row. As the player accrues more points, the target advances more quickly, and the difficulty of the level rises.
 
@@ -15,21 +15,34 @@ The LED sprite first moves randomly across the screen when the game begins. When
 
 The player wins the game by scoring as many points as possible before failing to press the A button in the middle. The game ends when the player fails to press the A button in the middle and their score is displayed on the screen.
 
-##Table Checklist
+## Table Checklist
 
 >Correct use of variables
+
 Yes
+
 >Evidence of sequencing in the code
+
 Yes
+
 >Evidence of branching in the code
+
 Yes
+
 >Evidence of repetition in the code
+
 Yes
+
 >Does your program run correctly?
+
 Yes
+
 >Does your code contain any errors? (minor or major)
+
 no
+
 >Have you researched new (advanced) techniques? 
+
 Yes, I have used the “game” function, “Run in background” and increasing the text scrolling speed.
 
 ## Blocks preview
