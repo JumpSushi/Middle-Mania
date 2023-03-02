@@ -1,5 +1,5 @@
 
-> Open this page at (if you are on github) [https://jumpsushi.github.io/reaction-game/](https://jumpsushi.github.io/Middle-Mania/)!!!!
+> Open this page at (if you are on github) [https://jumpsushi.github.io/reaction-game](https://jumpsushi.github.io/Middle-Mania/)!!!!
 
 ### To make a copy of this repository in MakeCode!!!!! (FOR MS. E)
 
