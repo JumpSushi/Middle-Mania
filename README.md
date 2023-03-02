@@ -5,7 +5,7 @@
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
-* paste **https://github.com/jumpsushi/reaction-game** and click import
+* paste **https://github.com/jumpsushi/Middle-Mania** and click import
 
 ## Game Brief
 
